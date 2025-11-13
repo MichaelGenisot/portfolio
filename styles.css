@@ -87,7 +87,8 @@ section img {
     width: 15rem;
 }
 section>h2 {
-    padding: 1rem;
+    padding:1rem;
+    margin: 0;
 }
 .logos {
     display: grid;
@@ -118,7 +119,8 @@ section>h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    align-items: center;
+    place-items: center;
+
 }
 footer img {
     max-width: 50%;
@@ -186,6 +188,9 @@ footer {
     footer img {
         max-height: 20rem;
     }
+    footer {
+        place-items:center;
+    }
     .contact>h2 {
         font-size: 4rem;
     }
@@ -195,4 +200,10 @@ footer {
     h4 {
         font-size: 2rem;
     }
+    .start {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 0;
+}
 }
